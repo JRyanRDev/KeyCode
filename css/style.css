@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#page-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 0.6fr;
+
+    height: 100vh;
+    width: 80%;
+
+    margin: auto;
+
+    text-align: center;    
+}
+
+div#keyCode {
+    align-self: center;
+    font-size: 3rem;
+}
+
+div#key {
+    font-size: 2rem;   
+}
+
